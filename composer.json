@@ -1,0 +1,21 @@
+{
+    "name": "nagaevnv/joomla-cleaner",
+    "authors": [
+        {
+            "name": "Nagaev Nikita",
+            "email": "nagaevnv@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "symfony/console": "^3.3",
+        "doctrine/dbal": "^2.5"
+    }
+}
